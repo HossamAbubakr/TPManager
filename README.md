@@ -28,7 +28,7 @@ It allows me to quickly change settings as well as do a lot of maintenance with 
 
 At the moment I only tried it on my own device a **TD-W8968 v5.**  
 I am sure many other devices are compatible but I can't guarantee it.  
-If you would like to me to support your device then maybe we can cooperate on implementing it.
+If you would like me to support your device then maybe we can cooperate on implementing it.
 
 ## Technologies
 
@@ -48,17 +48,17 @@ All the calls to the device are asynchronous and without main thread interruptio
 
 3. The ability to have full control over your MAC filter.
 
-4. The ability to tag MAC address in your filter (The functionality I originaly made this app for)
+4. The ability to tag MAC address in your filter (The functionality I originally made this app for)
 
 5. Compare your current speed to current international averages **(data pulled from speedtest.net)**
 
-6. View hidden WIFI paramters and settings, otherwise hidden by the device.
+6. View hidden WIFI parameters and settings, otherwise hidden by the device.
 
 7. View connected device and copy their MAC addresses to easily add them to the filter
 
-8. Toolbox menue with essential one click configurations with full explination and logging of operations.
+8. Toolbox menu with essential one click configurations with full explanation and logging of operations.
 
-9. Troubleshooting menue with essential one click fixes with full explination and logging of operations.
+9. Troubleshooting menu with essential one click fixes with full explanation and logging of operations.
 
 10. Serialized settings for one click login.
 
@@ -84,7 +84,7 @@ They return the data as a mixture between HTML and Javascript objects and need t
 
 ### Actions
 
-| End-Point  | Function | Paramters | Example |
+| End-Point  | Function | Parameters | Example |
 | ------------- |:-------------:|:-------------:|:-------------:|
 | /wlcfg.wl     | Enable/Disable WIFI     |WIFI Index: wlSsidIdx, Enable/Disable: wlEnbl| ?wlSsidIdx=0&wlEnbl=1
 | /wlcfg.wl     | Set WIFI name    |WIFI Index: wlSsidIdx, Name: wlSsid| ?wlSsidIdx=0&wlSsid=NewWifiName
@@ -101,7 +101,7 @@ They return the data as a mixture between HTML and Javascript objects and need t
 #### Important Note:
 
 Alongside authenticating the user with a base64 encrypted password.   
-all subsequent **actions** require an ever changing session key to be grabbed and submitted as an end pramater. for Ex.
+all subsequent **actions** require an ever changing session key to be grabbed and submitted as an end parameter. for Ex.
 ```
 http://192.168.1.1/wlcfg.wl?wlSsidIdx=0&wlEnbl=1&wlSsid=MyNewWifiName&2529419906
 ```
@@ -160,4 +160,5 @@ Is a command to change the name of the first WIFI device. The session key here f
 ## Usage and Installation
 
 **Everything is included in the project. Fork away!**
+
 
