@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPManager", "TPManager.csproj", "{EE67C119-8103-4F8D-9EED-489CBC898E8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE67C119-8103-4F8D-9EED-489CBC898E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE67C119-8103-4F8D-9EED-489CBC898E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE67C119-8103-4F8D-9EED-489CBC898E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE67C119-8103-4F8D-9EED-489CBC898E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3764BA54-475D-4DDB-BBC5-9BF77BDE1661}
+	EndGlobalSection
+EndGlobal
